@@ -1,0 +1,207 @@
+.firstul{
+    list-style-type: none; margin: 0;
+     width: 100%;  overflow: hidden; 
+   padding-top: 35px; padding-bottom: 7px;
+   
+}
+
+.user{
+    float: right; margin-right: 15.5%; color: #009973;
+    font-size: 15px; opacity: 0.7; font-weight: bold;
+}
+.user:hover, .user:active{
+    color: #009973; opacity: 0.7;
+    text-decoration: none;
+}
+
+header{
+    border-bottom: 5px solid #f0f0f0;
+}
+
+.li1, .li1:hover, .li1:active{
+  color: white; background-color: orange;
+  padding:10px 43px; border-radius: 15px; 
+  text-decoration: none;
+}
+
+li{
+    display: inline; float: right; margin-right: 7%; 
+}
+
+li a, li a:hover, li a:active{
+    color: #009973; font-weight: bold;
+    text-decoration: none; font-size: 18px;
+}
+.first-row{
+    background-color: #f0f0f0;
+}
+.agent{
+    float: right; color: red; font-size: 17px;
+    margin-right: 8.9%; opacity: 0.5; font-weight: bold;
+}
+.agent:hover, .agent:active{
+    color: red; text-decoration: none;
+}
+#searchId .btn-lg{
+   background-color: white; box-shadow: 0px 2px 2px 2px #d9d9d9;
+   padding-right: 140px;
+}
+#searchId .btn-lg:active, #searchId .btn:focus{
+    outline: none; border: 0px;
+}
+.btn-lg span{
+    color: #b3b3b3; margin-right: 30px; 
+}
+.btn-lg i{
+    color: grey;  
+}
+#searchId .secondlg{
+    background-color: white; box-shadow: 0px 2px 2px 2px #d9d9d9;
+   padding-right: 40px; margin-left: 3%;
+}
+#searchId .secondlg:active, #searchId .secondlg:focus{
+    outline: none; border: 0px;
+}
+.secondlg span{
+    color: grey; margin-right: 8px; 
+}
+.lorrem p{
+    color: #009973; font-weight: bold;
+    font-size: 25px; border-bottom: 3px solid #d9d9d9;
+}
+.lorrem span{
+    color: #b3b3b3; font-weight: bold;
+}
+.lorrem .avh{
+    color: grey; font-weight: bold;
+    font-size: 28px; border: 0px; margin-left: -1.3%; 
+}
+.column1{
+    border-right: 2px solid #d9d9d9; border-bottom: 3px solid #b3b3b3;
+    border-top: 2px solid #d9d9d9; border-left: 0px; 
+    padding-right: 3%; padding-bottom: 1%; border-radius: 5px;
+    border-top-left-radius: 0%; border-bottom-left-radius: 0%; 
+}
+.column2{
+    border-right: 2px solid #d9d9d9; border-bottom: 3px solid #b3b3b3;
+    border-top: 2px solid #d9d9d9; border-left: 0px; 
+    padding-right: 3%; padding-bottom: 1%; border-radius: 5px;
+    border-top-left-radius: 0%; border-bottom-left-radius: 0%; 
+    margin-left: 8%;
+}
+.buttonround{
+    border-radius: 100%; border: 0px;
+    background-color: white; box-shadow: 0px 3px 3px 3px #d9d9d9;
+    padding: 2%; color: grey;
+}
+.buttonround:active, .buttonround:focus{
+    outline: none;
+}
+.firstbutton{
+    margin-right: 35%;
+}
+.firstbutton:active, .firstbutton:focus{
+    outline: none;
+}
+.cozy{
+    font-weight: bold; font-size: 20px;
+    color: grey; float: right; 
+}
+.cozy2{
+    font-weight: bold; font-size: 18px;
+    color: grey; float: right; 
+}
+.loc{
+    color: grey; float: right; margin-top: -1%;
+}
+.amount{
+    font-weight: bold; font-size: 18px;
+    color: grey; float: right; margin-top: -1%;
+}
+.agnt{
+    float: right; color: grey; font-weight: bold;
+    font-size: 16px;
+}
+.fh{
+    float: right; color: grey; font-size: 16px;
+    margin-top: -2%;
+}
+.redstar{
+    color: red; float: right;
+    margin-top: -4%; 
+}   
+.amt{
+    font-weight: bold; font-size: 17px; 
+    color: black; float: right; margin-top: -4%;
+}
+.redstar2{
+    color: red; float: left;
+    margin-top: -4%; margin-left: 46%;
+}
+.fed{
+    color: #009973; text-align: center;
+    font-weight: bold; font-size: 17px;
+}
+.ghty{
+    text-align: center; 
+}
+
+
+
+
+.lastfluid{
+    background-color: #009973; padding-bottom: 3%;
+}
+h4{
+    color: white; opacity: 0.9;
+    font-size: 23px;
+}
+.lastcol a, .sec span{
+    color: yellowgreen; opacity: 0.4;
+    font-size: 17.5px;
+}
+.lastcol a:hover, .lastcol a:active{
+text-decoration: none;
+}
+
+.cover a img{
+    font-size: 18px; margin-left: 5%;
+    float: right;
+}
+.footer .cover a:hover, .footer .cover a:active{
+    text-decoration: none;
+} 
+.contactus{
+    color: yellowgreen; opacity: 0.4;
+    font-size: 17.5px;  float: right;
+}
+    hr{
+        opacity: 0.6;
+    }
+    .copyright{
+        color: yellowgreen; float: left; 
+        opacity: 0.4; 
+    }
+    .glyphicon-home{
+        color: white; float: right; font-size: 25px;
+         line-height: 70%; opacity: 0.9;
+    }
+    .sec{
+        padding-left: 9%;
+    }
+   
+        @media screen and (max-width: 1000px){
+
+            .cover{
+                float: left; padding-left: 0px;
+            }
+            .cover a img{
+                float: left; margin-left: 0px; margin-right: 5%;
+            }
+            .sec{
+                padding-left: 0px;
+            }
+            .agent{
+                margin-right: 2.5%;
+            }
+        }

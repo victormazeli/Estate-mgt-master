@@ -1,0 +1,87 @@
+header span:first-of-type{
+    color: orange; font-size: 43px; font-style: italic;
+    margin-right: 1%;
+}
+.fh{
+color: orange; font-size: 18px; font-style: italic;
+}
+header{
+    border-bottom: 5px solid #f0f0f0;
+    padding-top: 9px; padding-bottom: 7px; 
+}
+header a{
+    margin-left: 45%;
+}
+a:hover, a:active{
+text-decoration: none;
+}
+h4{
+    color: #009973; font-size: 30px; font-weight: bold;
+    text-align: center;
+}
+#loginput, #logpwd{
+    margin-left: 32%; width: 33%; border: 1px solid grey;
+    padding: 10px 12px; font-size: 17px; border-right: 0px;
+    outline: none;
+}
+#loginput:focus, #logpwd:focus{
+    outline: none;
+}
+.checktext{
+  margin-left: 0.5%;
+}
+#checkboxx{
+    margin-left: 32%;
+}
+.fp{
+    float: right; margin-right: 32%;
+    color: red;
+}
+.fp:hover, .fp:active{
+color: red; text-decoration: none;
+}
+#loginform .btnlogin{
+    color: white; background: #009973; margin-left: 32%;
+    width: 36%; border: 0px;
+}
+#loginform .btnlogin:hover, #loginform .btnlogin:active, #loginform .btnlogin:focus{
+    color: white; outline: none; border: 0px;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+.google{
+     background: white; margin-left: 32%;
+    width: 36%; border: 1px solid #0066cc;
+}
+.facebook{
+    color: white; margin-left: 32%; 
+    width: 36%; background: #0066cc; 
+}
+.glyphicon-thumbs-up{
+   margin-right: 5%;
+}
+.google:hover, .google:active{
+    color: #0066cc;
+}
+.facebook:hover, .facebook:active{
+    color: white;
+    } 
+    .quickreg{
+        align:left; margin-left: 32%;
+    }
+    .signup, .signup:hover, .signup:active{
+        color: red; float: right; margin-right: 32%;
+    }
+    .glyphicon-envelope, .glyphicon-lock{
+        border: 1px solid grey; border-left: 0px;
+       padding-bottom: 15.5px; padding-top: 10px;
+        padding-left: 0px; padding-right: 0px;
+        padding-right: 15px; font-size: 18px; color: grey;
+    }
+    img{
+        width: 3%; float: left; margin-left: 15%;
+        margin-right: -11%;
+    }

@@ -1,0 +1,66 @@
+header span:first-of-type{
+    color: orange; font-size: 43px; font-style: italic;
+    margin-right: 1%;
+}
+.fh{
+color: orange; font-size: 18px; font-style: italic;
+}
+header{
+    border-bottom: 5px solid #f0f0f0;
+    padding-top: 9px; padding-bottom: 7px; 
+}
+header a{
+    margin-left: 45%;
+}
+a:hover, a:active{
+text-decoration: none;
+}
+section h4{
+    color: #009973; font-weight: bold;
+    font-size: 28px;
+}
+section p{
+    font-size: 18px; opacity: 0.8;
+}
+li{
+    font-size: 18px; opacity: 0.8; margin-left: -2%;  
+    line-height: 180%;
+}
+#termsForm .btn2{
+    background-color: white;
+    border: 1px solid #009973;
+    color: #009973; padding: 12px 22px;
+}
+#termsForm .btn2:focus, #termsForm .btn2:active, #termsForm .btn2:hover{
+    outline: none; color: #009973; border: 1px solid #009973;
+}
+#termsForm .btn-success{
+    padding: 12px 22px; border: 0px;
+    margin-right: 3%;  outline: none;
+}
+
+#termsForm .btn-success:active, #termsForm .btn-success:focus{
+    outline: none; border: 0px;
+}
+
+form{
+    margin-left: -1%;
+}
+
+@media screen and (max-width: 1000px){
+    li,section p, .fh{
+        font-size: 24px;
+    }
+    form span{
+        font-size: 20px;
+    }
+    header span:first-of-type{
+        font-size: 56px; margin-right:2%;
+    }
+    header a{
+        margin-left: 40%;
+    }
+    header{
+        padding-top: 11px; padding-bottom: 9px;    
+    }
+}
